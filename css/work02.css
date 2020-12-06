@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+html{
+font-size: 62.5%;
+}
+
+@media all and (max-width: 850px) {
+  html 
+    { font-size: 50%; 
+    } /* 이제 문서 내 모든 rem 단위가 영향을 받습니다.*/
+}
+
+body{
+    margin: 0; 
+    font-family: 'Noto Sans KR',sans-serif;
+}
+
+header{
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+    z-index: 999;
+}
+
+a {
+    text-decoration:none;
+}
+
+h1 .home{
+   padding:0;
+    margin-left: 4vw;
+    color: #0047B7;
+    font-size: 1.8rem;
+}
+
+h1 .home:hover{
+    color: #A9C8F9;
+}
+/*상단메뉴바*/
+nav{
+    margin-left: 58vw;
+    float: right;
+}
+
+ul{
+    list-style: none;
+     float: right;
+}
+
+.b-container li{
+    float: left;
+    padding: 0;
+    margin-right: 12px;
+   
+}
+.b-container a{
+    font-weight: 500;
+    float: right;
+    line-height: 4vh; 
+    color: #A9C8F9; 
+    padding: 0 10px; 
+    display: inline;
+    font-size: 1.5rem;
+    cursor: pointer;  
+}
+
+@media all and (max-width: 1200px) {
+    .b-container a {
+        font-size: 0;
+    }
+}
+.b-container a:hover{
+  color: #0047B7;
+}
+    
+.container{
+    display: flex;
+    width: 100vw;
+    height:6vh;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-shadow: 0px 6px 30px rgba(176,198,231,.2);;
+}
+
+/*work0201*/
+.img01{
+    position: absolute;
+    padding: 0;
+    left: 0;
+    margin:0;
+}
+
+/*window01*/
+.window01{
+    width: 98vw; 
+    height: 140vh;
+}
+/*window01_제목*/
+.window01 h2{
+    position: absolute;
+    margin-top: 90vh;
+    margin-left: 22vw;
+    font-size: 5rem;
+    font-weight: 500;
+}
+/*작업기간,등등*/
+.info01{
+    position: absolute;
+    margin-left: 14vw;
+    margin-top: 116vh;
+}
+
+.window01 p1,p2,p3{
+    position: relative;
+    margin-left: 8vw;
+    font-size: 1.8rem;
+    float: left;
+    font-weight:300;
+    line-height: 40px;
+    color: #636262;
+}
+/*작업기간,등등 제목부분*/
+.window01 span01{
+
+    font-weight: 500;
+    font-size: 2rem;
+}
+/*구분선*/
+.endWindow01{
+    margin-left: 4vw;
+    margin-top: 28vh;
+    border-radius: 10px;
+}
+
+/*본문 시작 00-*/
+.window02{
+    width: 98vw; 
+    height: 200vh;
+}
+
+.overview p4{
+    margin-left: 22vw;
+    margin-top: 8vh;
+    float: left;
+    font-size: 2rem;
+}
+
+.overview span01{
+    font-size: 2.4rem; 
+    font-weight: 600;
+    line-height: 100px;
+}
+
+.overview span02{
+    float: left;
+    margin-left: 82px;
+    font-size: 1.8rem; 
+    font-weight: 400;
+    
+}
+
+.overview .title{
+    margin-left: 82px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.overview p5{
+    margin-left: 22vw;
+    margin-top: 10vh;
+    float: left;
+    font-size: 2rem;
+}
+
+.overview p6{
+    margin-left: 22vw;
+    margin-top: 10vh;
+    float: left;
+    font-size: 2rem;
+}
+
+
+/*design process*/
+.img02{
+    margin-top: 4vh;
+    position: relative;
+    float: left;
+    margin-left: 14vw;
+}
+
+
+/*design concept*/
+
+.designConcept{
+    position: absolute;
+    width : 100vw;
+    height:88vh;
+    background-color: #E4EFFF;
+    margin-top: 110vh;
+}
+.designConcept p7{
+    margin-left: 22vw;
+    margin-top: 8vh;
+    float: left;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.img03{
+    margin-top: 8vh;
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+}
+
+/*persona*/
+
+.persona{
+    position: absolute;
+    width : 100vw;
+    height:58vh;
+    margin-top: 192vh;
+    background-color: #3D79C7;
+}
+.persona span01{
+    color: white;
+    margin-left: 22vw;
+    margin-top: 10vh;
+    float: left;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.img04{
+    margin-top: 8vh;
+    position: relative;
+    float: left;
+    margin-left: 28vw;
+}
+
+/*fonts*/
+.fonts{
+    position: absolute;
+    width : 100vw;
+    height:40vh;
+    margin-top: 254vh;
+}
+.fonts span01{
+    margin-left: 22vw;
+    margin-top: 6vh;
+    float: left;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.img05{
+    margin-top: 8vh;
+    position: relative;
+    float: left;
+    margin-left: 28vw;
+}
+
+.window03{
+    width: 98vw; 
+    height: 200vh;
+}
+
+
+/*Design Details*/
+.window03 span01{
+    margin-left: 22vw;
+    margin-top: 30vh;
+    float: left;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+/*onboarding*/
+.img06{
+    margin-top: 8vh;
+    width : 100vw;
+    height:80vh;
+    position: relative;
+    float: left;
+    margin-left: 0;
+
+}
+
+.pink{
+    margin-top: 34vh;
+    padding: 0;
+    width : 100vw;
+    height:310vh;
+    position: absolute;
+   
+}
+/*mainpage*/
+.pink span01{
+    text-align: center;
+    line-height: 5rem;
+    position: relative;
+    margin-top: 8vh;
+    margin-left: 37.4vw;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #002B80;     
+}
+
+.pink span02{
+   font-weight: 400;
+    font-size: 1.6rem;
+}
+
+/*mainpage밑줄*/
+.pink hr{
+    position: absolute;
+    margin-left: 47.6vw;
+    border-radius: 10px;
+    margin-top: 14vh;
+}
+
+
+.background{
+    margin-left: 6vw;
+}
+
+.img06 img{
+    position: relative;
+    margin-left: 22vw;
+    margin-top: 20vh;
+}
+
+.video01{
+    margin-top: 70vh;
+    width:100vw;
+    height: 100vh;
+}
+
+
+.video01 video{
+    position: absolute;
+    margin-top: 72.8vh;
+    margin-left:5.2vw;
+}
+
+/*func01*/
+
+.pink02{
+    position: absolute;
+    margin-top: 38vh;
+    padding: 0;
+    width : 100vw;
+    height: 20vh;
+    
+}
+
+.pink02 span01{
+    text-align: center;
+    line-height: 5rem;
+    position: relative;
+    margin-top: 8vh;
+    margin-left: 38.4vw;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #002B80;     
+}
+
+.pink02 span02{
+   font-weight: 400;
+    font-size: 1.6rem;
+}
+
+/*mainpage밑줄*/
+.pink02 hr{
+    position: absolute;
+    margin-left: 47.6vw;
+    border-radius: 10px;
+    margin-top: 14vh;
+}
+
+/*subpages*/
+.img08{
+    margin-top: 10vh;
+    margin-left: 6vw;
+}
+
+.img08 img{
+    margin-top: 10vh;
+}
+
+.window04{
+    position: relative;
+    margin-top: 110vh;
+    width: 98vw; 
+    height: 36vh;
+    background-color: #3D79C7;
+}
+
+
+
+.window04 span07{
+    position: absolute;
+    margin-left: 70vw;
+    margin-top: 8vh;
+    float: right;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 5rem;
+    color: white;
+}
+.window04 span08{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

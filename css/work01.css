@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+html{
+font-size: 62.5%;
+}
+
+@media all and (max-width: 850px) {
+  html 
+    { font-size: 50%; 
+    } /* 이제 문서 내 모든 rem 단위가 영향을 받습니다.*/
+}
+
+body{
+    margin: 0; 
+    font-family: 'Noto Sans KR',sans-serif;
+}
+
+header{
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+    z-index: 999;
+}
+
+a {
+    text-decoration:none;
+}
+
+h1 .home{
+   padding:0;
+    margin-left: 4vw;
+    color: #D13D65;
+    font-size: 1.8rem;
+}
+
+h1 .home:hover{
+    color: #FFCBD9;
+}
+/*상단메뉴바*/
+nav{
+    margin-left: 58vw;
+    float: right;
+}
+
+ul{
+    list-style: none;
+     float: right;
+}
+
+.b-container li{
+    float: left;
+    padding: 0;
+    margin-right: 12px;
+   
+}
+.b-container a{
+    font-weight: 500;
+    float: right;
+    line-height: 4vh; 
+    color: #FFCBD9; 
+    padding: 0 10px; 
+    display: inline;
+    font-size: 1.5rem;
+    cursor: pointer;  
+}
+
+@media all and (max-width: 1200px) {
+    .b-container a {
+        font-size: 0;
+    }
+}
+.b-container a:hover{
+  color: #D13D65;
+}
+    
+.container{
+    display: flex;
+    width: 100vw;
+    height:6vh;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-shadow: 0px 6px 30px rgba(218,73,111,.2);;
+}
+
+/*work0101*/
+.img01{
+    position: absolute;
+    padding: 0;
+    left: 0;
+    margin:0;
+}
+
+/*window01*/
+.window01{
+    width: 98vw; 
+    height: 140vh;
+}
+/*window01_제목*/
+.window01 h2{
+    position: absolute;
+    margin-top: 80vh;
+    margin-left: 22vw;
+    font-size: 5rem;
+    font-weight: 500;
+}
+/*작업기간,등등*/
+.info01{
+    position: absolute;
+    margin-left: 14vw;
+    margin-top: 106vh;
+}
+
+.window01 p1,p2,p3{
+    position: relative;
+    margin-left: 8vw;
+    font-size: 1.8rem;
+    float: left;
+    font-weight:300;
+    line-height: 40px;
+    color: #636262;
+}
+/*작업기간,등등 제목부분*/
+.window01 span01{
+
+    font-weight: 500;
+    font-size: 2rem;
+}
+/*구분선*/
+.endWindow01{
+    margin-left: 4vw;
+    margin-top: 28vh;
+    border-radius: 10px;
+}
+
+/*본문 시작 00-*/
+.window02{
+    width: 98vw; 
+    height: 200vh;
+}
+
+.overview p4{
+    margin-left: 22vw;
+    margin-top: 0;
+    float: left;
+    font-size: 2rem;
+}
+
+.overview span01{
+    font-size: 2.4rem; 
+    font-weight: 600;
+    line-height: 100px;
+}
+
+.overview span02{
+    float: left;
+    margin-left: 82px;
+    font-size: 1.8rem; 
+    font-weight: 400;
+    
+}
+
+.overview .title{
+    margin-left: 82px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.overview p5{
+    margin-left: 22vw;
+    margin-top: 10vh;
+    float: left;
+    font-size: 2rem;
+}
+
+.overview p6{
+    margin-left: 22vw;
+    margin-top: 10vh;
+    float: left;
+    font-size: 2rem;
+}
+
+
+/*design process*/
+.img02{
+    margin-top: 2vh;
+    position: relative;
+    float: left;
+    margin-left: 22vw;
+}
+
+
+/*design concept*/
+
+.designConcept{
+    position: absolute;
+    width : 100vw;
+    height:56vh;
+    background-color: #E95C7E;
+    margin-top: 110vh;
+}
+.designConcept p7{
+    color: white;
+    margin-left: 22vw;
+    margin-top: 8vh;
+    float: left;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.img03{
+    margin-top: 6vh;
+    position: relative;
+    float: left;
+    margin-left: 22vw;
+}
+
+/*persona*/
+
+.persona{
+    position: absolute;
+    width : 100vw;
+    height:56vh;
+    margin-top: 166vh;
+}
+.persona span01{
+    margin-left: 22vw;
+    margin-top: 8vh;
+    float: left;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.img04{
+    margin-top: 8vh;
+    position: relative;
+    float: left;
+    margin-left: 22vw;
+}
+
+/*fonts*/
+.fonts{
+    position: absolute;
+    width : 100vw;
+    height:40vh;
+    margin-top: 226vh;
+    background-color: #FFE7ED;
+}
+.fonts span01{
+    margin-left: 22vw;
+    margin-top: 6vh;
+    float: left;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.img05{
+    margin-top: 6vh;
+    position: relative;
+    float: left;
+    margin-left: 28vw;
+}
+
+.window03{
+    width: 98vw; 
+    height: 200vh;
+}
+
+
+/*Design Details*/
+.window03 span01{
+    margin-left: 22vw;
+    margin-top: 2vh;
+    float: left;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+/*onboarding*/
+.img06{
+    margin-top: 8vh;
+    width : 100vw;
+    height:80vh;
+    position: relative;
+    float: left;
+    margin-left: 0;
+
+}
+
+.pink{
+    margin-top: 40vh;
+    padding: 0;
+    width : 100vw;
+    height:330vh;
+    position: absolute;
+    background-color: #FFE7ED;
+}
+
+.img06 img{
+    position: relative;
+    margin-left: 6.5vw;
+    margin-top: 0;
+}
+
+.video01{
+    margin-top: 70vh;
+    width:100vw;
+    height: 100vh;
+}
+
+
+.video01 video{
+    position: absolute;
+    margin-top: 25.5vh;
+    margin-left:4.2vw;
+}
+
+/*func01*/
+
+.pink02{
+    position: absolute;
+    margin-top: 28vh;
+    padding: 0;
+    width : 100vw;
+    height:30vh;
+    background-color: #F5668C;
+}
+
+.video02{
+    position: absolute;
+    padding: 0;
+    width:100vw;
+    height:50vh;
+    margin-top: 10vh;
+}
+
+.video02 video{
+    position: relative;
+    margin-left: 20vw;
+    box-shadow: 10px 10px 10px rgba(218,73,111,.2);
+}
+
+
+.pink02 span07{
+    margin-left: 48vw;
+    margin-top: 8vh;
+    float: left;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+.pink02 span08{
+    margin-left: 48vw;
+    margin-top: 3vh;
+    float: left;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: white;
+}
+
+.pink02 span09{
+    font-weight: 500;
+}
+
+
+/*func02*/
+
+.pink03{
+    margin-top: 100vh;
+    padding: 0;
+    width : 100vw;
+    height:30vh;
+    position: absolute;
+    background-color: #FFEFF3;
+}
+
+.pink03 span07{
+    margin-right: 40vw;
+    margin-top: 8vh;
+    float: right;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #E95C7E;
+}
+.pink03 span08{
+    text-align: right;
+    margin-right: 40vw;
+    margin-top: 2vh;
+    float: right;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.pink03 span09{
+    font-weight: 500;
+}
+
+.video03{
+    margin-left:0;
+    position: absolute;
+    padding: 0;
+    width:100vw;
+    height:100vh;
+    margin-top: 86vh;
+}
+
+.video03 video{
+    position: relative;
+    margin-left: 65vw;
+    box-shadow: 10px 10px 10px rgba(218,73,111,.2);
+}
+
+/*func03*/
+
+.pink04{
+    position: absolute;
+    margin-top: 180vh;
+    padding: 0;
+    width : 100vw;
+    height:36vh;
+    background-color: #F5668C;
+}
+
+.video04{
+    position: absolute;
+    padding: 0;
+    width:100vw;
+    height:50vh;
+    margin-top: 168vh;
+}
+
+.video04 video{
+    position: relative;
+    margin-left: 20vw;
+    box-shadow: 10px 10px 10px rgba(218,73,111,.2);
+}
+
+
+.pink04 span07{
+    margin-left: 48vw;
+    margin-top: 10vh;
+    float: left;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+.pink04 span08{
+    margin-left: 48vw;
+    margin-top: 2vh;
+    float: left;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: white;
+}
+
+.pink04 span09{
+    font-weight: 500;
+}
+
+.window04{
+    position: relative;
+    width: 98vw; 
+    height: 120vh;
+}
+
+.img07{
+    margin-top: 100vh;
+}
+
+.img07 img{
+    position: absolute;
+    margin-top: 60vh;
+    margin-left: 45vw;
+   
+}
+
+.window04 span07{
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: 88vh;
+    float: left;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 5rem;
+}
+.window04 span08{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

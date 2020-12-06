@@ -1,0 +1,639 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+html{
+font-size: 62.5%;
+    margin: 0; 
+    padding:0;
+}
+
+@media all and (max-width: 850px) {
+  html 
+    { font-size: 50%; 
+    } /* 이제 문서 내 모든 rem 단위가 영향을 받습니다.*/
+}
+
+body{
+    margin: 0; 
+    padding:0;
+    font-family: 'Noto Sans KR',sans-serif;
+}
+
+header{
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+    z-index: 999;
+}
+
+/*상단 메뉴에서 링크 및줄 빼는거*/
+a {
+    text-decoration:none;
+}
+
+
+h1{
+    /*내이름 로고*/
+    line-height: 3vh;
+    display: inline; 
+    margin-left: 5vw; 
+    padding: 0;
+    font-size: 1.8rem; 
+    font-weight: 900; 
+    color: #989DCA;
+    float: left; 
+   
+}
+
+
+/*상단메뉴바*/
+nav{
+    margin-left: 55vw;
+    float: right;
+}
+
+ul{
+    list-style: none;
+     float: right;
+}
+
+.b-container li{
+    float: left;
+    padding: 0;
+    margin-right: 12px;
+   
+}
+
+
+.b-container a{
+    font-weight: 500;
+    float: right;
+    line-height: 4vh; 
+    color: #E3E6FF; 
+    padding: 0 10px; 
+    display: inline;
+    font-size: 1.5rem;
+    cursor: pointer;  
+}
+
+@media all and (max-width: 1200px) {
+    .b-container a {
+        font-size: 0;
+    }
+}
+.b-container a:hover{
+  color: #989DCA;
+}
+    
+.container{
+    display: flex;
+    width: 100vw;
+    height:6vh;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-shadow: 0px 6px 30px #C4C3D8;
+}
+
+h2{
+    /*2020port*/
+    margin-left: 10vw;
+    margin-top : 10vh;
+    margin-bottom: 0;
+
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: white;
+}
+
+@media all and (max-width: 1200px) {
+    h2 { font-size: 0px; } /* 이제 문서 내 모든 rem 단위가 영향을 받습니다.*/
+    
+}
+
+b1{
+    /*2020port*/
+    margin-left: 72vw;
+    display: inline;
+    -webkit-transform: rotate(90deg);
+       -webkit-transform-origin: left top;
+       -moz-transform: rotate(90deg);
+       -moz-transform-origin: left top;
+       -ms-transform: rotate(90deg);
+       -ms-transform-origin: left top;
+       -o-transform: rotate(90deg);
+       -o-transform-origin: left top;
+       transform: rotate(90deg);
+       transform-origin: left top;
+}
+
+@media all and (max-width: 1200px) {
+   b1 { font-size: 0px; } /* 이제 문서 내 모든 rem 단위가 영향을 받습니다.*/
+    
+}
+
+.whynot{
+  
+    margin-left: 20vw;
+    margin-top:10vh;
+    opacity: 0;
+    
+}
+
+.whynot.animate{
+    transform:translateY(4em);
+}
+
+.animate{
+    animation: fadeIn 1s forwards ease-in;
+    transition: 1s ease-in-out;
+}
+
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100%{opacity: 1;}
+}
+
+h3{
+    /*whynot*/
+    font-size: 6rem;
+    font-weight: 800;
+    color: white;
+}
+
+.h3.animate{
+     transform: translateY(2em);
+}
+
+#use{
+    font-size: 10rem;  
+}
+
+#use.animate{
+    transform: translateY(2em);
+}
+
+#my{
+    font-size: 10rem;  
+}
+
+#ex{
+    font-size: 10rem;  
+}
+
+
+
+h5{
+    /*UX/UI Designer*/
+    margin-left: 180px;
+    margin-top : 200px;
+    margin-bottom: 0;
+    font-family: 'Noto Sans KR',sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color:#989DCA;
+    transform: rotate(-90deg);
+       transform-origin: left bottom;
+}
+
+@media all and (max-width: 1200px) {
+    h5 { font-size: 0px; } /* 이제 문서 내 모든 rem 단위가 영향을 받습니다.*/
+    
+}
+
+b2{
+    /*UX/UI Designer*/
+    margin-top: 0;
+    margin-left: 80vw;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: white;
+}
+
+@media all and (max-width: 1200px) {
+    #Designer{
+        font-size: 0px;}
+}
+
+/*window02*/
+h6
+{/*about me*/
+    margin-left: 45vw;
+    margin-top: 12vh;
+    font-size: 3rem;
+    color: #989DCA;
+    
+}
+/*about me 밑에 줄*/
+#aboutme_hr{
+    position: absolute;
+    margin-left: 44vw;
+    margin-top: 18vh;
+    border-radius: 10px;
+}
+
+
+.img_profile
+{
+    position: relative; 
+    margin-top: 30vh; 
+    margin-left: 20vw;
+    width: 20vw;
+    height: 20vh;
+    
+}
+
+
+
+.img_profile img{
+    max-width: 100%; 
+    height: auto;
+
+}
+
+.background
+{
+    position: relative; 
+    margin:0;
+    width: 100%;
+    height: 100vh;
+     
+}
+
+#pr01{
+    position: relative; 
+    margin:0;
+    width: 22vw;
+}
+
+
+#pr01:hover{
+   
+}
+
+#pr02{
+    position: relative; 
+    margin:0;
+    width: 22vw;
+}
+
+#pr03{
+    position: relative; 
+    margin:0;
+    width: 22vw;
+  
+}
+
+#pr04{
+    position: relative; 
+    margin:0;
+    width: 22vw;
+    padding: 0;
+    
+}
+
+
+
+
+/*소개*/
+/*안녕하세요*/
+span01{
+    font-size: 2rem;
+    position: absolute; 
+    margin-left: 46vw; 
+    margin-top: 39vh; 
+    color: #7C7E8E;
+    font-weight: 600;
+    opacity: 0;
+}
+
+#window02 span01.animate{
+    transform:translateY(1em);
+}
+
+/*이하내용*/
+span02{
+    font-size: 1.6rem;
+    position: absolute; 
+    margin-left: 46vw; 
+    margin-top: 44vh; 
+    color: #7C7E8E;
+    font-weight: 400;
+    opacity: 0;
+        
+}
+
+#window02 span02.animate{
+    transform:translateY(1em);
+}
+
+/*skills*/
+
+.designtools{
+    margin-left: 2vw;
+    margin:0;
+    opacity: 0;
+}
+
+.designtools.animate{
+    transform:translateY(1em);
+}
+
+h7{
+    position: absolute;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-left: 180px;
+    margin-top: 60px;
+    
+}
+
+.tool01{
+    text-align: right;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #989DCA;
+    float: left;
+   margin-left: 140px;
+    margin-top: 120px;
+    line-height: 30px;
+}
+
+.tool02{
+    text-align: right;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #989DCA;
+    float: left;
+   margin-left: 140px;
+    margin-top: 120px;
+    line-height: 30px;
+}
+
+/*progress bar*/
+.progressbar01{
+    position: absolute;
+    display: inline-block;
+    width: 120px;
+    height: 12px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 132px;
+    margin-left: 16px;
+    
+}
+.g90
+{
+    position: absolute;
+    display: inline-block;
+    width: 90%;
+    height: 12px;
+    background-color: #BEC4FE;
+    border-radius: 10px;
+    
+}
+.progressbar02{
+    position: absolute;
+    display: inline-block;
+    width: 120px;
+    height: 12px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 162px;
+    margin-left: 16px;
+    
+}
+.g95{
+    position: absolute;
+    display: inline-block;
+    width: 95%;
+    height: 12px;
+    background-color: #BEC4FE;
+    border-radius: 10px;
+}
+.g80{
+    position: absolute;
+    display: inline-block;
+    width: 80%;
+    height: 12px;
+    background-color: #BEC4FE;
+    border-radius: 10px;
+}
+
+.progressbar03{
+    position: absolute;
+    display: inline-block;
+    width: 120px;
+    height: 12px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 192px;
+    margin-left: 16px;
+    
+}
+.progressbar04{
+    position: absolute;
+    display: inline-block;
+    width: 120px;
+    height: 12px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 222px;
+    margin-left: 16px;
+    
+}
+/*coding skills*/
+h8{
+    position: absolute;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-left: 300px;
+    margin-top: 18px;
+    line-height: 120px;
+    opacity: 0;
+}
+
+h8.animate{
+    transform:translateY(1em);
+}
+
+/*coding element*/
+.Coding{
+    text-align: left;
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #989DCA;
+    float: left;
+   margin-left: 240px;
+    margin-top: 110px;
+    line-height: 30px;
+    opacity: 0;
+}
+
+.Coding.animate{
+    transform:translateY(1em);
+}
+
+.coding{
+    
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+    background-color: white;
+    width:inherit;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: inherit;
+    border-radius: 50px;
+    padding-bottom: 0;
+}
+
+/*Lang skills*/
+
+.Lang{
+    text-align: left;
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #989DCA;
+    float: left;
+   margin-left: 240px;
+    margin-top: 78px;
+    line-height: 30px;
+    opacity: 0;
+}
+
+.Lang.animate{
+    transform:translateY(1em);
+}
+
+.lang{
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+    background-color: white;
+    width:inherit;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: inherit;
+    border-radius: 50px;
+}
+
+h10
+{
+    /*myworks*/
+    margin-left: 45vw;
+    margin-top: 10vh;
+    font-size: 3rem;
+    color: #989DCA;
+    font-weight: 600;
+    
+}
+
+#myworks_hr{
+    /*myworks 밑에줄*/
+    position: absolute;
+    margin-left: 44vw;
+    margin-top: 16vh;
+    border-radius: 10px;
+}
+
+#pr01,#pr02,#pr03,#pr04{
+    opacity: 0;
+}
+
+#pr01 img:hover,#pr02 img:hover,#pr03 img:hover,#pr04 img:hover{
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out;
+   /* filter: blur(1px);*/    
+}
+
+#pr01.animate,#pr02.animate,#pr03.animate,#pr04.animate{
+    transform: translateY(4rem);
+}
+
+.pr0101 img{
+    position: absolute;
+    margin-top: 50vh;
+    margin-left: 4.4vw;
+   
+}
+
+.pr0202 img{
+    position: absolute;
+    margin-top: 50vh;
+    margin-left: 28vw;
+   
+}
+
+.pr0303 img{
+    position: absolute;
+    margin-top: 50vh;
+    margin-left: 51.6vw;
+   
+}
+
+.pr0404 img{
+    position: absolute;
+    margin-top: 50vh;
+    margin-left: 75.4vw;
+   
+}
+
+
+.pr0101, .pr0202, .pr0303, .pr0404{
+    opacity: 0;
+}
+
+
+
+h11{
+    /*contact*/
+    margin-left: 45vw;
+    margin-top: 5vh;
+    font-size: 3rem;
+    color: white;
+    font-weight: 600;
+}
+#contact_hr{
+    /*contact 밑에줄*/
+    position: absolute;
+    margin-left: 44vw;
+    margin-top: 11vh;
+    border-radius: 10px;
+}
+
+#window05 img{
+    margin-top: 20vh;
+    margin-left: 10vw;
+}
+/*Home*/
+#window01{
+    width: 100vw; height: 100vh;
+    background-color: #E9EBFF;
+}
+
+/*About Me*/
+#window02{
+    width: 100vw; height: 95vh;
+    background-color: white;
+}
+
+/*skills*/
+#window03{
+    width: 100vw; height: 44vh;
+    background-color: #D7DBFF;
+    
+}
+
+#window04{
+    width: 100vw; height: 100vh;
+    background-color: white;
+}
+
+#window05{
+    width: 100vw; height: 40vh;
+    background-color: #D7DBFF;
+}
