@@ -214,6 +214,35 @@ b2{
         font-size: 0px;}
 }
 
+/*scrollD*/
+.scrollD img{
+    width: 14vw;
+    margin-left: 42vw;
+    animation: watch 2s linear infinite both;
+}
+
+@keyframes watch {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(0px, 5px);
+  }
+  40% {
+    transform: translate(0px, -5px);
+  }
+  60% {
+    transform: translate(0px, 5px);
+  }
+  80% {
+    transform: translate(0px, -5px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+
 /*window02*/
 h6
 {/*about me*/
