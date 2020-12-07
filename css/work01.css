@@ -30,7 +30,7 @@ h1 .home{
    padding:0;
     margin-left: 4vw;
     color: #D13D65;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 h1 .home:hover{
@@ -114,7 +114,7 @@ ul{
 .window01 p1,p2,p3{
     position: relative;
     margin-left: 8vw;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     float: left;
     font-weight:300;
     line-height: 40px;
@@ -155,7 +155,7 @@ ul{
 .overview span02{
     float: left;
     margin-left: 82px;
-    font-size: 1.8rem; 
+    font-size: 1.6rem; 
     font-weight: 400;
     
 }
@@ -353,7 +353,7 @@ ul{
     margin-left: 48vw;
     margin-top: 3vh;
     float: left;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 300;
     color: white;
 }
@@ -387,7 +387,7 @@ ul{
     margin-right: 40vw;
     margin-top: 2vh;
     float: right;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 300;
 }
 
@@ -448,7 +448,7 @@ ul{
     margin-left: 48vw;
     margin-top: 2vh;
     float: left;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 300;
     color: white;
 }
